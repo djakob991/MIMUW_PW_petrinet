@@ -4,6 +4,7 @@ Zadanie 1 z przedmiotu 'Programowanie Współbieżne'
 Treść zadania:
 
 Zadanie zaliczeniowe 1: Sieć Petriego i jej zastosowania
+
 Wprowadzenie
 
 Sieć Petriego to dwudzielny graf skierowany, którego węzłami są miejsca (ang. place) i przejścia (ang. transition).
