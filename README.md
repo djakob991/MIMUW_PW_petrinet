@@ -51,7 +51,7 @@ Specyfikacja implementacji sieci Petriego
 W pakiecie petrinet jest bezpieczna dla wątków (ang. thread-safe) implementacja sieci Petriego.
 
 Zdefiniowane są klasy:
-
+```
 package petrinet;
 
 import java.util.Collection;
@@ -76,9 +76,9 @@ public class PetriNet<T> {
     ...
 
 }
-
+```
 oraz:
-
+```
 package petrinet;
 
 import java.util.Collection;
@@ -94,7 +94,7 @@ public class Transition<T> {
     ...
 
 }
-
+```
 Konstruktor Transition<T>(input, reset, inhibitor, output) tworzy przejście między miejscami typu T. Przejście jest połączone:
 
     krawędziami wejściowymi z miejscami należącymi do input.keySet(), przy czym wagą krawędzi prowadzącej z miejsca x jest input.get(x),
