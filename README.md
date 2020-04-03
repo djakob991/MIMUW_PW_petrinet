@@ -126,6 +126,8 @@ Jeżeli sieć Petriego została utworzona konstruktorem z argumentem fair równy
 W przypadku przerwania wątku, metoda fire(transitions) zgłasza wyjątek InterruptedException.
 
 Oprócz klas PetriNet<T> i Transition<T>, w rozwiązaniu mogą być inne definicje. Można je umieścić zarówno w pakiecie petrinet, jak i w pakietach pomocniczych.
+
+
 Specyfikacja programu Alternator
 
 Program uruchamiamy metodą statyczną main(args) klasy Main, zdefiniowanej w pakiecie alternator.
@@ -141,6 +143,9 @@ Dla każdego wątku, protokołem wstępnym i protokołem końcowym są pojedyncz
 Jeśli zajdzie taka potrzeba, można uruchomić dodatkowy wątek pomocniczy, odpowiedzialny za odpalanie przejść, których nie odpalają wątki A, B, C.
 
 Po 30 sekundach od rozpoczęcia symulacji wątek główny przerywa wszystkie pozostałe i kończy program.
+
+
+
 Specyfikacja programu Multiplicator
 
 Program uruchamiamy metodą statyczną main(args) klasy Main, zdefiniowanej w pakiecie multiplicator.
