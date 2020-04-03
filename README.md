@@ -46,6 +46,7 @@ Polecenie
     Napisz program przykładowy Multiplicator, demonstrujący zastosowanie sieci Petriego do realizacji obliczeń wielowątkowych (2 pkt).
 
 Rozwiązanie ma być zgodne z poniższą specyfikacją.
+
 Specyfikacja implementacji sieci Petriego
 
 W pakiecie petrinet jest bezpieczna dla wątków (ang. thread-safe) implementacja sieci Petriego.
