@@ -5,7 +5,7 @@ Zadanie 1 z przedmiotu 'Programowanie Współbieżne'
 
 Zadanie zaliczeniowe 1: Sieć Petriego i jej zastosowania
 
-###Wprowadzenie
+### Wprowadzenie
 
 Sieć Petriego to dwudzielny graf skierowany, którego węzłami są miejsca (ang. place) i przejścia (ang. transition).
 
@@ -37,7 +37,7 @@ Odpalenie przejścia to operacja niepodzielna, powodująca wykonanie kolejno trz
 
     dodania do każdego miejsca, z którym odpalane przejście jest połączone krawędzią wyjściową tylu żetonów, jaka jest waga tej krawędzi.
 
-###Polecenie
+### Polecenie
 
     Zaimplementuj sieć Petriego (6 pkt).
 
@@ -47,7 +47,7 @@ Odpalenie przejścia to operacja niepodzielna, powodująca wykonanie kolejno trz
 
 Rozwiązanie ma być zgodne z poniższą specyfikacją.
 
-###Specyfikacja implementacji sieci Petriego
+### Specyfikacja implementacji sieci Petriego
 
 W pakiecie petrinet jest bezpieczna dla wątków (ang. thread-safe) implementacja sieci Petriego.
 
@@ -129,7 +129,7 @@ W przypadku przerwania wątku, metoda fire(transitions) zgłasza wyjątek Interr
 Oprócz klas PetriNet<T> i Transition<T>, w rozwiązaniu mogą być inne definicje. Można je umieścić zarówno w pakiecie petrinet, jak i w pakietach pomocniczych.
 
 
-###Specyfikacja programu Alternator
+### Specyfikacja programu Alternator
 
 Program uruchamiamy metodą statyczną main(args) klasy Main, zdefiniowanej w pakiecie alternator.
 
@@ -147,7 +147,7 @@ Po 30 sekundach od rozpoczęcia symulacji wątek główny przerywa wszystkie poz
 
 
 
-###Specyfikacja programu Multiplicator
+### Specyfikacja programu Multiplicator
 
 Program uruchamiamy metodą statyczną main(args) klasy Main, zdefiniowanej w pakiecie multiplicator.
 
