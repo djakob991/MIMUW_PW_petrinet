@@ -1,7 +1,7 @@
-# PW_zadanie1
+# PW_petrinet
 Zadanie 1 z przedmiotu 'Programowanie Współbieżne'
 
-Treść zadania:
+## Treść zadania:
 
 Zadanie zaliczeniowe 1: Sieć Petriego i jej zastosowania
 
